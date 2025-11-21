@@ -1,4 +1,7 @@
-const audioElement=document.querySelectorAll("audio");
-const stopBtn=document.querySelector("#stopBtn")
+const buttons = document.querySelectorAll(".btn:not(.stop)");
+const stopBtn = document.getElementById("stopBtn");
+const audios = document.querySelectorAll("audio");
 
-audioElement.forEach
+audio.forEach((music)=>{
+	music.pause()
+})

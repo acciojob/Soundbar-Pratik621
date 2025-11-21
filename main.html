@@ -9,14 +9,25 @@
 <body>
 	<!-- the entire body must be written by student -->
 <div class="container">
-    <audio class="btn" src="music1.mp3" id="music1"></audio>
-    <audio class="btn" src="music2.mp3" id="music2"></audio>
-    <audio class="btn" src="music3.mp3" id="music3"></audio>
-    <audio class="btn" src="music4.mp3" id="music4"></audio>
-    <audio class="btn" src="music5.mp3" id="music5"></audio>
 
-    <button class="btn" id="stopBtn">Stop</button>
-</div>
+		<button class="btn" data-sound="applause">applause</button>
+		<button class="btn" data-sound="boo">boo</button>
+		<button class="btn" data-sound="gasp">gasp</button>
+		<button class="btn" data-sound="tada">tada</button>
+		<button class="btn" data-sound="victory">victory</button>
+		<button class="btn" data-sound="wrong">wrong</button>
+		<button class="btn stop" id="stopBtn">stop</button>
+
+		<!-- REAL audio elements (Cypress will see these!) -->
+		<audio id="applause" src="sounds/applause.mp3"></audio>
+		<audio id="boo" src="sounds/boo.mp3"></audio>
+		<audio id="gasp" src="sounds/gasp.mp3"></audio>
+		<audio id="tada" src="sounds/tada.mp3"></audio>
+		<audio id="victory" src="sounds/victory.mp3"></audio>
+		<audio id="wrong" src="sounds/wrong.mp3"></audio>
+
+	</div>
+
     <script type="text/javascript" src="./script.js">
 </script>
 
