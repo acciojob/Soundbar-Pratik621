@@ -1,2 +1,1 @@
-const music=document.querySelector(".btn")
-const stop=document.querySelector(".stop")
+const button=document.querySelector(".btn")
