@@ -1,7 +1,2 @@
-//your JS code here. If required.
-const button=document.querySelector("button")
-button.addEventListener("click",()=>{
-	if(button.textContent==="music1"){
-		
-	}
-})
+const music=document.querySelector(".btn")
+const stop=document.querySelector(".stop")
